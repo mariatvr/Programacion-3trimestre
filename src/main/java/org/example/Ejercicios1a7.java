@@ -24,7 +24,6 @@ public class Ejercicios1a7 {
         File f = new File(nombreArchivo);
 
         try (Scanner entrada = new Scanner(f)) {
-            // Lectura con Scanner como en la página 6 de tus apuntes
             while (entrada.hasNextInt()) {
                 int numero = entrada.nextInt();
                 suma = suma + numero;
@@ -48,20 +47,65 @@ public class Ejercicios1a7 {
     public static void escribirPrimos() {
         try {
             PrintWriter pw = new PrintWriter(
-                    new BufferedWriter(new FileWriter("/home/marvicrui/DAW_mariateresa/ficheros/primos.txt")));
+                    new BufferedWriter(new FileWriter("/home/marvicrui/DAW_mariateresa/ficheros/primos.dat")));
             for (int i = 1; i <= 500; i++) {
                 if (esPrimo(i)) pw.println(i);
             }
             pw.close();
-            System.out.println("Fichero primos.txt escrito.");
+            System.out.println("Fichero primos.dat escrito.");
         } catch (IOException e) {
             System.err.println("Error al escribir en el archivo: " + e.getMessage());
         }
     }
 
-    public static void main(String[] args) {
+    //EJERCICIO 4
+    public static void sinEspacios(String nombreFichero) {
+        FileReader fr = null;
+        BufferedReader entrada;
+
+        try {
+            fr = new FileReader(nombreFichero);
+            entrada = new BufferedReader(fr);
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+
+    //EJERCICIO 7
+    public static void mostrarArchivoPantalla(String nombreArchivo) {
+        FileReader fr = null;
+        BufferedReader entrada;
+
+        try {
+            fr = new FileReader(nombreArchivo);
+            entrada = new BufferedReader(fr);
+
+            String cadena = entrada.readLine();
+            while (cadena != null) {
+                System.out.println(cadena);
+                cadena = entrada.readLine();
+            }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            try {
+                if (fr != null) {
+                    fr.close();
+                }
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
+        public static void main(String[] args) {
         escribirNaturales();
         int resultadoSuma = obtenerSumaNumerosArchivo("/home/marvicrui/DAW_mariateresa/ficheros/numNaturales.txt");
         System.out.println("La suma de los números es: " + resultadoSuma);
+        escribirPrimos();
+        mostrarArchivoPantalla("/home/marvicrui/DAW_mariateresa/ficheros/primos.dat");
     }
 }
