@@ -3,6 +3,8 @@ package org.example;
 import java.io.*;
 import java.util.Scanner;
 
+
+
 public class Ejercicios1a7 {
     //EJERCICIO 1
     public static void escribirNaturales() {
@@ -59,19 +61,77 @@ public class Ejercicios1a7 {
     }
 
     //EJERCICIO 4
-    public static void sinEspacios(String nombreFichero) {
+    public static void eliminarEspaciosYMayusculas(String nombreArchivo) {
         FileReader fr = null;
-        BufferedReader entrada;
+        BufferedReader entrada = null;
 
         try {
-            fr = new FileReader(nombreFichero);
+            fr = new FileReader(nombreArchivo);
             entrada = new BufferedReader(fr);
 
+            String cadena = entrada.readLine();
+            System.out.println("Resultado (Sin espacios y Mayúsculas):");
+            while (cadena != null) {
+                // Quitamos espacios y pasamos a mayúsculas
+                String transformada = cadena.replace(" ", "").toUpperCase();
+                System.out.println(transformada);
+                cadena = entrada.readLine(); // Leer la siguiente línea
+            }
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println("Archivo no encontrado: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error de lectura: " + e.getMessage());
+        } finally {
+            try {
+                if (fr != null) fr.close();
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
         }
-
     }
+
+    // --- EJERCICIO 6 ---
+    public static void contarCaracteres(String nombreArchivo) {
+        FileReader fr = null;
+        int vocales = 0, consonantes = 0, numeros = 0;
+
+        try {
+            // Lectura carácter a carácter como en la página 5
+            fr = new FileReader(nombreArchivo);
+            int car = fr.read();
+
+            while (car != -1) {
+                char c = (char) car;
+                c = Character.toLowerCase(c); // Lo pasamos a minúscula para comparar más fácil
+
+                if (c >= '0' && c <= '9') {
+                    numeros++;
+                } else if (c >= 'a' && c <= 'z') {
+                    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                        vocales++;
+                    } else {
+                        consonantes++;
+                    }
+                }
+                car = fr.read(); // Leer siguiente carácter
+            }
+            System.out.println("Vocales: " + vocales);
+            System.out.println("Consonantes: " + consonantes);
+            System.out.println("Números: " + numeros);
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Archivo no encontrado: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error de lectura: " + e.getMessage());
+        } finally {
+            try {
+                if (fr != null) fr.close();
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
 
 
     //EJERCICIO 7
@@ -102,10 +162,10 @@ public class Ejercicios1a7 {
     }
 
         public static void main(String[] args) {
-        escribirNaturales();
-        int resultadoSuma = obtenerSumaNumerosArchivo("/home/marvicrui/DAW_mariateresa/ficheros/numNaturales.txt");
+        Ejercicios1a7.escribirNaturales();
+        int resultadoSuma = Ejercicios1a7.obtenerSumaNumerosArchivo("/home/marvicrui/DAW_mariateresa/ficheros/numNaturales.txt");
         System.out.println("La suma de los números es: " + resultadoSuma);
-        escribirPrimos();
+        Ejercicios1a7.escribirPrimos();
         mostrarArchivoPantalla("/home/marvicrui/DAW_mariateresa/ficheros/primos.dat");
     }
 }
