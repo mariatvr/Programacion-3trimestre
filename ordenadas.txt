@@ -1,0 +1,6 @@
+avión
+barco
+casa
+piano
+reloj
+zapato

@@ -1,6 +1,8 @@
 package org.example;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 
@@ -90,6 +92,50 @@ public class Ejercicios1a7 {
         }
     }
 
+    public static void ordenarAlfabe(String nombreArchivo){
+        String archivoOrigen = "desordenadas.txt";
+        String archivoDestino = "ordenadas.txt";
+
+        Scanner entrada = null;
+        PrintWriter salida = null;
+        ArrayList<String> listaPalabras = new ArrayList<>();
+
+        try {
+            entrada = new Scanner(new File(nombreArchivo));
+
+            while(entrada.hasNext()){
+                listaPalabras.add(entrada.next());
+            }
+            System.out.println("Palabras leídas correctamente. Total: " + listaPalabras.size());
+        } catch (FileNotFoundException e) {
+            System.out.println("Error al leer: No se encuentra el archivo '" + archivoOrigen + "'");
+            return;
+        } finally {
+            if (entrada != null){
+                entrada.close();
+            }
+        }
+
+        Collections.sort(listaPalabras);
+        try {
+            salida = new PrintWriter(archivoDestino);
+
+            for (String palabra : listaPalabras) {
+                salida.println(palabra);
+            }
+            System.out.println("Fichero guardado y ordenado con éxito en: " + archivoDestino);
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Error al escribir: " + e.getMessage());
+
+        } finally {
+            if (salida != null) {
+                salida.close();
+            }
+        }
+    }
+
+
     // --- EJERCICIO 6 ---
     public static void contarCaracteres(String nombreArchivo) {
         FileReader fr = null;
@@ -167,5 +213,6 @@ public class Ejercicios1a7 {
         System.out.println("La suma de los números es: " + resultadoSuma);
         Ejercicios1a7.escribirPrimos();
         mostrarArchivoPantalla("/home/marvicrui/DAW_mariateresa/ficheros/primos.dat");
+        ordenarAlfabe("/home/marvicrui/IdeaProjects/testIDEA/src/main/java/org/example/desordenadas.txt");
     }
 }
