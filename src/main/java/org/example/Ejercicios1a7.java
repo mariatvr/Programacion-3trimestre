@@ -92,6 +92,7 @@ public class Ejercicios1a7 {
         }
     }
 
+    //EJERCICIO 5
     public static void ordenarAlfabe(String nombreArchivo){
         String archivoOrigen = "desordenadas.txt";
         String archivoDestino = "ordenadas.txt";
@@ -136,7 +137,7 @@ public class Ejercicios1a7 {
     }
 
 
-    // --- EJERCICIO 6 ---
+    //  EJERCICIO 6
     public static void contarCaracteres(String nombreArchivo) {
         FileReader fr = null;
         int vocales = 0, consonantes = 0, numeros = 0;
