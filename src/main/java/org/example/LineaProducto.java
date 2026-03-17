@@ -2,12 +2,12 @@ package org.example;
 
 import java.util.Objects;
 
-public class Ticket {
+public class LineaProducto {
     private String producto;
     private double precio;
     private int cantidad;
 
-    public Ticket(String producto, double precio, int cantidad) {
+    public LineaProducto(String producto, double precio, int cantidad) {
         this.producto = producto;
         this.precio = precio;
         this.cantidad = cantidad;
@@ -29,7 +29,7 @@ public class Ticket {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        Ticket that = (Ticket) obj;
+        LineaProducto that = (LineaProducto) obj;
         return producto.equalsIgnoreCase(that.producto);
     }
 
