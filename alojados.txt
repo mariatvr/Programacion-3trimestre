@@ -1,0 +1,54 @@
+Ranking: 1 - Nombre: Shuvalova, Polina
+Ranking: 2 - Nombre: Medarde Santiago, Luis Marcos
+Ranking: 3 - Nombre: Merario Alarcon, Andres
+Ranking: 5 - Nombre: Sofronie, Iulian
+Ranking: 6 - Nombre: Garcia Fernandez, Victor
+Ranking: 7 - Nombre: Teran Alvarez, Ismael
+Ranking: 9 - Nombre: Van der Hagen, Loek
+Ranking: 10 - Nombre: Medhus, Vitus Bondo
+Ranking: 11 - Nombre: Torres Sanchez, Jose
+Ranking: 13 - Nombre: Ibanez Aullana, Ramon
+Ranking: 14 - Nombre: Ghannoum, Marc
+Ranking: 15 - Nombre: Redzisz, Michal
+Ranking: 16 - Nombre: De La Puerta Cresis, Javier
+Ranking: 17 - Nombre: Pedchenko Bondar, Alexandr
+Ranking: 18 - Nombre: Shearsby, Jude
+Ranking: 20 - Nombre: Thuesen, Mogens
+Ranking: 22 - Nombre: Yu, Ting
+Ranking: 23 - Nombre: Nava Pereda, Carlos
+Ranking: 25 - Nombre: Bremner, Adam
+Ranking: 26 - Nombre: Mitchell, Martin
+Ranking: 27 - Nombre: Floris, Federico
+Ranking: 28 - Nombre: Rodriguez Lopez, Rafael
+Ranking: 30 - Nombre: Blanco Sanjuan, Jorge
+Ranking: 32 - Nombre: Tsiapko, Andrii
+Ranking: 33 - Nombre: Khoo-Thwe, Louis
+Ranking: 34 - Nombre: Gonzalez Gonzalez, Alfonso
+Ranking: 35 - Nombre: Portero Rubio, Martin
+Ranking: 36 - Nombre: Horcajada Reales, Guillermo
+Ranking: 37 - Nombre: Palomo Teruel, Xavier
+Ranking: 38 - Nombre: Van Dam, Niels
+Ranking: 39 - Nombre: Nettleton, Charlie B
+Ranking: 41 - Nombre: Delaney, John
+Ranking: 43 - Nombre: Wang, Hao(ZJ)
+Ranking: 44 - Nombre: Nadal Fajardo, Ricard
+Ranking: 45 - Nombre: Jankowiak, Piotr
+Ranking: 46 - Nombre: Lopez Pereyra, Antonio
+Ranking: 48 - Nombre: Sukhodolskyi, Oleksii
+Ranking: 49 - Nombre: Gonzalez Aguirre, Luis
+Ranking: 50 - Nombre: Planas Gene, Juan
+Ranking: 51 - Nombre: Avetisyan, Ani
+Ranking: 53 - Nombre: Martinez Herranz, Francisco Jose
+Ranking: 55 - Nombre: Sofronie, Vladimir
+Ranking: 56 - Nombre: Nguyen, Khoi
+Ranking: 58 - Nombre: Sakulski, Bernard
+Ranking: 61 - Nombre: Rutherford, William
+Ranking: 62 - Nombre: Huguet, Sergio
+Ranking: 63 - Nombre: Zhang, Junyi
+Ranking: 65 - Nombre: Yang, Sung-Jui
+Ranking: 66 - Nombre: Coll, Julien
+Ranking: 67 - Nombre: Gersemann, Karl
+Ranking: 69 - Nombre: Gerona Maura, Jesus
+Ranking: 70 - Nombre: Valera Munoz, Miguel A.
+Ranking: 71 - Nombre: Hu, Junyan
+Ranking: 72 - Nombre: Ding, Yiwen
