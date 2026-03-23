@@ -82,7 +82,9 @@ public class Ejercicio9 {
             double total = 0.0;
             DecimalFormat df = new DecimalFormat("#.00");
 
-            System.out.println("-----------------------------------------------------");
+            String barra = "-----------------------------------------------------";
+            System.out.println(barra);
+            pw.println(barra);
             for (LineaProducto producto : carrito) {
                 if (producto.getProducto().equalsIgnoreCase("garbanzos") || producto.getProducto().equalsIgnoreCase("guisantes") || producto.getProducto().equalsIgnoreCase("jengibre")) {
                     String datoProdu = producto.getProducto() + "\t\t " + producto.getPrecio() + "\t\t    " + producto.getCantidad() + "\t\t\t  " + df.format(producto.getSubtotal());
@@ -96,9 +98,11 @@ public class Ejercicio9 {
                     total += producto.getSubtotal();
                 }
             }
-            String fina "TOTAL:\t\t\t\t\t\t\t\t\t\t  "+df.format(total):
-            System.out.println("-----------------------------------------------------");
-            System.out.println("TOTAL:\t\t\t\t\t\t\t\t\t\t  "+df.format(total));
+            String parteFinal = "TOTAL:\t\t\t\t\t\t\t\t\t\t  "+df.format(total);
+            System.out.println(barra);
+            System.out.println(parteFinal);
+            pw.println(barra);
+            pw.println(parteFinal);
 
 
         } catch (IOException e) {
