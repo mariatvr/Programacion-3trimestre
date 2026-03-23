@@ -1,0 +1,74 @@
+Lista de jugadores Benidorm Chess Open 2024
+Ran.;Tít.;Nombre;Fed.;FIDE;FIDE ID;Origen/Club;Info
+1;IM;Shuvalova, Polina;FID;2472;24171760;;PH
+2;IM;Medarde Santiago, Luis Marcos;ESP;2435;2263076;;PH
+3;IM;Merario Alarcon, Andres;ESP;2408;24522767;Málaga;PH
+4;IM;Ynojosa Aponte, Felix Jose;VEN;2387;3900258;;PCV
+5;IM;Sofronie, Iulian;ROU;2365;1202936;Rumanía;H
+6;FM;Garcia Fernandez, Victor;ESP;2353;54536820;Málaga;PH
+7;IM;Teran Alvarez, Ismael;ESP;2329;2204177;;PH
+8;FM;Diaz Velandia, Jose Manuel;VEN;2329;3901939;Gambito-Benimaclet;PCV
+9;FM;Van der Hagen, Loek;NED;2322;1052853;Holanda;PH
+10;FM;Medhus, Vitus Bondo;DEN;2297;1462547;Dinamarca;PH
+11;FM;Torres Sanchez, Jose;ESP;2284;2217210;Valencia;PHCV
+12;FM;Mingarro Carceller, Sergi;ESP;2273;2246678;Vila-real;PCV
+13;FM;Ibanez Aullana, Ramon;ESP;2270;2207532;Valencia;PHCV
+14;FM;Ghannoum, Marc;CAN;2262;2601273;Canadá;PH
+15;FM;Redzisz, Michal;POL;2259;21816107;Polonia;PH
+16;CM;De La Puerta Cresis, Javier;ESP;2246;2227401;La Didáctica;PH
+17;CM;Pedchenko Bondar, Alexandr;ESP;2200;24522732;;H
+18;CM;Shearsby, Jude;ENG;2192;462527;Reino Unido;PH
+19;;Bas Mas, Miguel;ESP;2186;2237954;Xeraco;PCV
+20;;Thuesen, Mogens;DEN;2174;1400878;Dinamarca;PH
+21;;Maldonado Mena, German;ESP;2173;24516422;Málaga;P
+22;WIM;Yu, Ting;CHN;2170;3403963;China;H
+23;FM;Nava Pereda, Carlos;ESP;2166;2207419;Conteneo;PH
+24;;Jordan Martinez, Miguel;ESP;2163;2283972;CM Castellón;PCV
+25;CM;Bremner, Adam;SCO;2162;2400847;Reino Unido;PH
+26;;Mitchell, Martin;SCO;2160;2400634;Reino Unido;PH
+27;;Floris, Federico;ITA;2157;898287;Italia;PH
+28;IM;Rodriguez Lopez, Rafael;ESP;2150;2204495;;PH
+29;;Rosol, Philip;POL;2150;1664905;Polonia;P
+30;;Blanco Sanjuan, Jorge;ESP;2144;2213966;;PH
+31;;Jordan Martinez, David;ESP;2139;2283964;CM Castellón;PCV
+32;;Tsiapko, Andrii;POL;2139;34105298;;PH
+33;;Khoo-Thwe, Louis;NOR;2124;1538756;Noruega;PH
+34;;Gonzalez Gonzalez, Alfonso;ESP;2122;2223007;CA Algeciras;PH
+35;CM;Portero Rubio, Martin;ESP;2117;24548448;;PH
+36;;Horcajada Reales, Guillermo;ESP;2116;2221470;Cudillero;PH
+37;;Palomo Teruel, Xavier;ESP;2113;2202999;;PH
+38;;Van Dam, Niels;NED;2109;1012762;Holanda;PH
+39;;Nettleton, Charlie B;ENG;2104;419710;Reino Unido;PH
+40;;Munoz Osete, Marcos;ESP;2099;54542987;La Vila;PCV
+41;FM;Delaney, John;IRL;2098;2500060;Irlanda;PH
+42;;Sanchez Barbado, Carlos;ESP;2098;2273012;;PCV
+43;;Wang, Hao(ZJ);CHN;2095;8631859;China;PH
+44;;Nadal Fajardo, Ricard;ESP;2081;32031548;Barcelona;PH
+45;;Jankowiak, Piotr;POL;2074;1185250;Polonia;PH
+46;;Lopez Pereyra, Antonio;ESP;2058;2227126;;H
+47;;Bascunana Sanchez, Pablo;ESP;2027;54701031;ASSSA Enric Valor;PCV
+48;;Sukhodolskyi, Oleksii;UKR;2023;34147586;Ucrania;PH
+49;;Gonzalez Aguirre, Luis;ESP;2016;2202000;Ateneo Marítimo;PHCV
+50;;Planas Gene, Juan;ESP;2013;2203103;Palma de Mallorca;PH
+51;;Avetisyan, Ani;ARM;2010;13319035;Armenia;PH
+52;;Gonzalez Lopez, Lucas I;ESP;2008;54766907;EDAPA;PCV
+53;;Martinez Herranz, Francisco Jose;ESP;2000;24598143;Almansa;PH
+54;;Beneyto De Ramon, Guillermo;ESP;1993;54533244;CD Basilio;PCV
+55;CM;Sofronie, Vladimir;ROU;1991;1296671;Rumanía;H
+56;;Nguyen, Khoi;BEL;1985;272540;Bélgica;PH
+57;;Khassenov, Mansur;KAZ;1982;13768700;Kazajstán;P
+58;CM;Sakulski, Bernard;ESP;1970;2278677;A Coruña;PH
+59;;Gimeno Simo, Sergio;ESP;1957;22293965;Vila-real;PCV
+60;;Bukharkov, Stepan;FID;1951;34346643;Rusia;PCV
+61;;Rutherford, William;SCO;1950;2401045;Reino Unido;PH
+62;FM;Huguet, Sergio;HON;1948;2212552;Honduras;PH
+63;;Zhang, Junyi;ENG;1946;494437;Reino Unido;PH
+64;WCM;Charvi A;IND;1944;25165518;India;P
+65;;Yang, Sung-Jui;TPE;1882;16301048;Taiwán;PH
+66;;Coll, Julien;FRA;1880;651013924;Francia;PH
+67;;Gersemann, Karl;GER;1846;34602186;Alemania;PH
+68;;Tetova, Amir;NED;1837;1095838;Holanda;P
+69;;Gerona Maura, Jesus;ESP;1836;2271303;Alzira;PHCV
+70;;Valera Munoz, Miguel A.;ESP;1834;2292491;Murcia;PH
+71;;Hu, Junyan;ENG;1828;343401260;Reino Unido;PH
+72;;Ding, Yiwen;ENG;1784;495980;Reino Unido;PH
