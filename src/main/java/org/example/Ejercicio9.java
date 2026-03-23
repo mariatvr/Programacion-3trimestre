@@ -11,30 +11,58 @@ import java.util.Set;
 public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // 1. Diccionario para el catálogo de productos y precios
         Map<String, Double> catalogo = new HashMap<>();
-        catalogo.put("avena", 2.21);
-        catalogo.put("garbanzos", 2.39);
-        catalogo.put("tomate", 1.59);
-        catalogo.put("jengibre", 3.13);
-        catalogo.put("quinoa", 4.50);
-        catalogo.put("guisantes", 1.60);
-
-        // 2. Set para almacenar la compra que realiza el usuario
         Set<LineaProducto> carrito = new HashSet<>();
 
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            fr = new FileReader("C:/Users/mterv/IdeaProjects/Programacion-3trimestre/src/main/java/org/example/productos.txt");
+            br = new BufferedReader(fr);
+
+            String linea = br.readLine();
+            while (linea != null) {
+                String[] partes = linea.split(";");
+
+                if (partes.length == 2) {
+                    String nombre = partes[0].trim().toLowerCase();
+                    double precio = Double.parseDouble(partes[1].replace(",", ".").trim());
+
+                    catalogo.put(nombre, precio);
+                }
+                linea = br.readLine();
+            }
+            System.out.println("Catálogo cargado correctamente (" + catalogo.size() + " productos).");
+
+        } catch (IOException e) {
+            System.out.println("Error al cargar el catálogo de productos: " + e.getMessage());
+            return;
+        } finally {
+            try {
+                if (br != null) br.close();
+            } catch (IOException e) {
+                System.out.println("Error al cerrar: " + e.getMessage());
+            }
+        }
+
         System.out.println("=== SUPERMERCADO MARIA TERESA ===");
-        System.out.println("___________________________________________________________");
-        System.out.println(" avena | garbanzos | tomate | jengibre | quinoa | guisantes");
-        System.out.println("___________________________________________________________");
-        System.out.println("  2,21 |    2,39   |  1,59  |   3,13   |  4,50  |    1,60  ");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("PRODUCTOS DISPONIBLES HOY:");
+        for (Map.Entry<String, Double> producto : catalogo.entrySet()) {
+            String nombre = producto.getKey();
+            nombre = nombre.substring(0, 1).toUpperCase() + nombre.substring(1);
+
+            System.out.println("- " + nombre + ": " + producto.getValue() + " €");
+        }
+        System.out.println("-----------------------------------------------------------");
+
         System.out.println("\nEscriba 'fin' en el producto para terminar la compra.\n");
 
         boolean comprando = true;
 
         while (comprando) {
-            System.out.println("Producto: ");
+            System.out.print("Producto: ");
             String nombreProd = sc.nextLine().toLowerCase();
 
             if (nombreProd.equals("fin")) {
