@@ -1,0 +1,73 @@
+posición   nombre                              ELO FIDE   puntos    
+1          Ynojosa Aponte, Felix Jose          2387       7.5       
+2          Shuvalova, Polina                   2472       7.5       
+3          Sofronie, Iulian                    2365       6.5       
+4          Garcia Fernandez, Victor            2353       6.5       
+5          De La Puerta Cresis, Javier         2246       6.5       
+6          Diaz Velandia, Jose Manuel          2329       6.0       
+7          Medarde Santiago, Luis Marcos       2435       6.0       
+8          Mingarro Carceller, Sergi           2273       6.0       
+9          Van der Hagen, Loek                 2322       6.0       
+10         Shearsby, Jude                      2192       6.0       
+11         Thuesen, Mogens                     2174       6.0       
+12         Tsiapko, Andrii                     2139       5.5       
+13         Wang, Hao(ZJ)                       2095       5.5       
+14         Medhus, Vitus Bondo                 2297       5.5       
+15         Redzisz, Michal                     2259       5.0       
+16         Charvi A                            1944       5.0       
+17         Teran Alvarez, Ismael               2329       5.0       
+18         Rodriguez Lopez, Rafael             2150       5.0       
+19         Gonzalez Lopez, Lucas I             2008       5.0       
+20         Rosol, Philip                       2150       5.0       
+21         Ibanez Aullana, Ramon               2270       5.0       
+22         Nguyen, Khoi                        1985       5.0       
+23         Mitchell, Martin                    2160       5.0       
+24         Munoz Osete, Marcos                 2099       5.0       
+25         Avetisyan, Ani                      2010       5.0       
+26         Portero Rubio, Martin               2117       5.0       
+27         Horcajada Reales, Guillermo         2116       5.0       
+28         Bas Mas, Miguel                     2186       5.0       
+29         Martinez Herranz, Francisco Jose    2000       5.0       
+30         Khassenov, Mansur                   1982       5.0       
+31         Maldonado Mena, German              2173       4.5       
+32         Sukhodolskyi, Oleksii               2023       4.5       
+33         Delaney, John                       2098       4.5       
+34         Jordan Martinez, David              2139       4.5       
+35         Bremner, Adam                       2162       4.5       
+36         Sofronie, Vladimir                  1991       4.5       
+37         Zhang, Junyi                        1946       4.5       
+38         Ghannoum, Marc                      2262       4.5       
+39         Nettleton, Charlie B                2104       4.0       
+40         Floris, Federico                    2157       4.0       
+41         Gonzalez Gonzalez, Alfonso          2122       4.0       
+42         Jordan Martinez, Miguel             2163       4.0       
+43         Pedchenko Bondar, Alexandr          2200       4.0       
+44         Nava Pereda, Carlos                 2166       4.0       
+45         Beneyto De Ramon, Guillermo         1993       4.0       
+46         Sakulski, Bernard                   1970       4.0       
+47         Bascunana Sanchez, Pablo            2027       4.0       
+48         Bukharkov, Stepan                   1951       4.0       
+49         Gonzalez Aguirre, Luis              2016       4.0       
+50         Jankowiak, Piotr                    2074       3.5       
+51         Huguet, Sergio                      1948       3.5       
+52         Palomo Teruel, Xavier               2113       3.5       
+53         Gersemann, Karl                     1846       3.5       
+54         Blanco Sanjuan, Jorge               2144       3.5       
+55         Van Dam, Niels                      2109       3.5       
+56         Planas Gene, Juan                   2013       3.5       
+57         Ding, Yiwen                         1784       3.5       
+58         Coll, Julien                        1880       3.0       
+59         Gimeno Simo, Sergio                 1957       3.0       
+60         Torres Sanchez, Jose                2284       3.0       
+61         Hu, Junyan                          1828       3.0       
+62         Tetova, Amir                        1837       2.5       
+63         Rutherford, William                 1950       2.5       
+64         Yang, Sung-Jui                      1882       2.5       
+65         Sanchez Barbado, Carlos             2098       2.5       
+66         Merario Alarcon, Andres             2408       2.0       
+67         Gerona Maura, Jesus                 1836       2.0       
+68         Valera Munoz, Miguel A.             1834       1.5       
+69         Yu, Ting                            2170       0.0       
+70         Khoo-Thwe, Louis                    2124       0.0       
+71         Nadal Fajardo, Ricard               2081       0.0       
+72         Lopez Pereyra, Antonio              2058       0.0       
